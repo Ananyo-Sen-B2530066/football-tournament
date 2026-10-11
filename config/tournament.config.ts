@@ -63,8 +63,8 @@ export const TIEBREAK_MODE = "golden_goal" as const; // league cut-off ties -> g
 // Two SEPARATE codes so you can hand the projector its own code without
 // exposing draw/reset control. Leave "" to disable that PIN.
 // Checked SERVER-SIDE on /api/control — knowing a URL grants nothing.
-export const OWNER_PIN = "6827";   // <-- SET THIS before the event
-export const SCREEN_PIN = "30266";  // <-- SET THIS before the event
+export const OWNER_PIN = "";   // <-- SET THIS before the event
+export const SCREEN_PIN = "";  // <-- SET THIS before the event
 
 // --- 6. STATE + SYNC ---------------------------------------------
 // Server-authoritative state lives on the HOST laptop in this file.
