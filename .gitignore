@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+data/
+*.tsbuildinfo
+.DS_Store
+.env*.local
+
+# player images are personal — keep them out of the repo if you like
+# public/players/*
+
+# background server logs (scripts/hub.sh)
+logs/
